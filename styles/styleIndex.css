@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Playpen Sans'; /* El nombre que desees para la fuente */
+    src: url('../assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf') format('truetype'); /* Ruta al archivo de la fuente */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+}
+
+h1 {
+    color: #333;
+    font-family: 'Playpen Sans';
+}
+
+p{
+    font-family: 'Playpen Sans';
+}
+
+.menu {
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 10px 0;
+}
+
+.menu a {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.menu a:hover {
+    background-color: #45a049;
+}
+
+.result {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.oculto {
+    display: none;
+}
+
+.mostrado {
+    display: block;
+}
